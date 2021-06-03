@@ -15,6 +15,8 @@ public class day1 {
         Assert.assertEquals("Google", driver.getTitle());
         System.out.println("Passed the Test");
         driver.quit();
+        driver.get("http://google.com");
+        System.out.println("github a eklemenin yontemleri  - basarili :-)");
 
     }
 }
